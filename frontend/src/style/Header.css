@@ -1,0 +1,77 @@
+/* Header.css */
+.header-container {
+  width: 95vw;
+  height: 80px; /* fixed height works better */
+  background-color: #e8f5e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 102;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo-img {
+  width: 150px;
+  height: 150px;
+  margin-right: 12px;
+  object-fit: cover;
+  border-radius: 0;
+  border: none;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  flex: 1;
+}
+
+.logo-text {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+  color: #2e7d32;
+}
+
+.logo-text span {
+  color: #388e3c; 
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  flex: 1;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+  transition: color 0.3s, border-bottom 0.3s;
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #2e7d32;
+  transition: width 0.3s;
+}
+
+.nav-link:hover {
+  color: #2e7d32;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}

@@ -1,0 +1,103 @@
+.home-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* full screen */
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+
+  /* padding: 60px 20px; */
+  background: url("../assets/images/tea_bg.jpg") no-repeat center top;
+  background-size: cover;
+}
+
+.home-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3); 
+  z-index: 1;
+}
+
+.home-section > * {
+  position: relative;
+  z-index: 2;
+}
+
+.home-header {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #1b5e20;
+  margin-bottom: 20px;
+}
+
+.brand-name {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #2e7d32;
+}
+
+.brand-name span {
+  color: #388e3c;
+}
+
+.home-subheading {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.home-subheading2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.home-button {
+  background-color: #2e7d32;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.home-button:hover {
+  background-color: #1b5e20;
+  transform: translateY(-2px);
+}
+
+.home-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.home-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
