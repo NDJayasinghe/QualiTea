@@ -1,4 +1,4 @@
-# Qualitea – Automated Tea Quality Assessment
+# QualiTea – Automated Tea Quality Assessment
 Qualitea is an automated system that evaluates black tea quality by analyzing dry tea particles, brewed tea liquid, and infusion leaves using image processing and machine learning.
 The system identifies tea variants, elevation levels, fibers, and strokes, ensuring consistent and objective quality assessment with potential for commercial deployment in tea production lines.
 
