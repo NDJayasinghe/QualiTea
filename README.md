@@ -7,4 +7,8 @@ The system identifies tea variants, elevation levels, fibers, and strokes, ensur
 - Extraction of visual features (color, size, shape, texture)  
 - Classification using Random Forest, SVM, and Neural Networks  
 - High-accuracy recognition of tea variants and elevation levels  
-- Modular architecture with front-end (UI) and back-end (processing + ML models) 
+- Modular architecture with front-end (UI) and back-end (processing + ML models)
+
+## System Workflow
+The system workflow is illustrated below:
+![System Workflow](images/workflow.png)
