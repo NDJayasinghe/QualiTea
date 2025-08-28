@@ -11,5 +11,5 @@ The system identifies tea variants, elevation levels, fibers, and strokes, ensur
 
 ## System Workflow
 The system workflow is illustrated below:
-![System Workflow](https://github.com/NDJayasinghe/QualiTea/images/high_level_architecture.png)
+![System Workflow](https://github.com/NDJayasinghe/QualiTea/blob/main/images/high_level_architecture.png)
 
